@@ -6,11 +6,11 @@ from typing import TYPE_CHECKING
 
 from PyQt5.QtWidgets import QCheckBox
 
-from test.control.graph_random_data import GraphRandomData
-from test.view.base_cls import BaseWidget
+from control.graph_random_data import GraphRandomData
+from view.base_cls import BaseWidget
 
 if TYPE_CHECKING:
-    from test.view.pages.model_dev_page import ModelDevPage
+    from view.pages.model_dev_page import ModelDevPage
 
 
 class FactorsListWidget(BaseWidget):

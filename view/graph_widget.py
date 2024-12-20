@@ -1,4 +1,4 @@
-from test.view.base_cls import BaseWidget
+from view.base_cls import BaseWidget
 import pyqtgraph as pg
 
 

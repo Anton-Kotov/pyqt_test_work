@@ -1,8 +1,8 @@
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QTableView, QGridLayout, QLabel, QSizePolicy
 
-from test.view.factors_list_widget import FactorsListWidget
-from test.view.graph_widget import GraphWidget
+from view.factors_list_widget import FactorsListWidget
+from view.graph_widget import GraphWidget
 
 
 class ModelDevPage(QTableView):

@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QTabWidget, QLabel
 
-from test.view.pages.modeling_page import ModelingPage
-from test.view.pages.prepare_data_page import PrepareDataPage
+from view.pages.modeling_page import ModelingPage
+from view.pages.prepare_data_page import PrepareDataPage
 
 
 class MainWindow(QMainWindow):

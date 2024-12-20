@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QTableView, QTabWidget, QVBoxLayout
 
-from test.view.pages.model_dev_page import ModelDevPage
-from test.view.pages.parameters_page import ParametersPage
+from view.pages.model_dev_page import ModelDevPage
+from view.pages.parameters_page import ParametersPage
 
 
 class ModelingPage(QTableView):
